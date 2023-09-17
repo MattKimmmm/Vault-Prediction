@@ -12,6 +12,14 @@ Vault-Prediction/
 │       ├── ...         # Subdirectories containing UBM images
 └── model_weights/      # Learned model weights saved in
 
+- `resnet.py`: Source code for the ResNet model.
+- `data/`:
+  - `ICL_sizes.xlsx`: Excel sheet containing ICL sizes.
+  - `UBM/`: Directory containing UBM images.
+    - `Subject 1/`: Subdirectory for Subject 1's UBM images.
+    - ... (Other subdirectories for UBM images)
+- `model_weights/`: Directory to store learned model weights.
+
 ## Current Mean Absolute Error (MAE)
 
 The current Mean Absolute Error (MAE) for predicting post-operative vault size, which ranges from 200 to 900, is approximately 140.
