@@ -9,9 +9,11 @@ Vault-Prediction/
 ├── data/
 │   ├── ICL_sizes.xlsx  # Excel sheet containing ICL sizes
 │   └── UBM/
-│       ├── Subject 1/
-│       ├── ...         # Subdirectories containing UBM images
+│       ├── Subject 1/  # Subdirectories containing individual UBM images
+│       ├── Subject 2/
+│       ├── ...         
 └── model_weights/      # Learned model weights saved in
+```
 
 ## Current Mean Absolute Error (MAE)
 
