@@ -1,0 +1,16 @@
+# Block everything
+/*
+
+# Basic files
+!.gitignore
+!README.md
+
+# Ignore .DS_Store and .log files
+**/.DS_Store
+**.log
+
+# Include desired files
+!resnet.py
+!/data/.gitkeep
+!/model_weights/.gitkeep
+
