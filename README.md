@@ -10,9 +10,8 @@ Vault-Prediction/
 │   └── UBM/
 │       ├── Subject 1/
 │       ├── ...         # Subdirectories containing UBM images
-└── model_weights/
+└── model_weights/      # Learned model weights saved in
 
 ## Current Mean Absolute Error (MAE)
 
 The current Mean Absolute Error (MAE) for predicting post-operative vault size, which ranges from 200 to 900, is approximately 140.
-
